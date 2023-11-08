@@ -5,7 +5,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Course {
-@Id
+	@Id
 	private long id;
 	private String title;
 	private String description;
